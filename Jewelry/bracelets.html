@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schiaparelli</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/photos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <a href="../index.html">
+                <img src="../images/logo/logo.jpg" alt="Logo Schiaparelli">
+            </a>
+        </div>
+        <div class="menu">  
+            <ul>
+                <li><a href="../pages/page1.html">Ready to wear</a></li>
+                <li><a href="../pages/page2.html">Haute Couture</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Jewelry</a>
+                    <div class="dropdown-content">
+                        <a href="../jewelry/earrings.html">Earrings</a>
+                        <a href="../jewelry/necklaces.html">Necklaces</a>
+                        <a href="../jewelry/rings.html">Rings</a>
+                        <a href="../jewelry/brooches.html">Brooches</a>
+                        <a href="../jewelry/bracelets.html">Bracelets</a>
+                    </div>
+                </li>
+                <li><a href="../pages/page4.html">Special Looks</a></li>
+                <li><a href="../pages/page5.html">Designers</a></li>  
+                <li><a href="../pages/page6.html">History</a></li>
+                <li><a href="../pages/page7.html">Favorites</a></li>
+                <li><a href="#" onclick="openEmailSection()" data-target="email-section">Buy</a></li>
+            </ul>
+        </div>
+    </div>
+
+<div class="email-section" id="email-section">
+    <form>
+      <center><h3>Pentru a plasa o comandă, completează adresa de e-mail și te vom contacta cât de curând</h3></center>
+      <input type="email" placeholder="Adresa ta de email">
+      <button type="submit" style="margin-top: 10px;">Trimite</button>
+      <button type="button" onclick="closeEmailSection()" style="margin-top: 10px;">Anulează</button>
+    </form>
+</div>
+
+  
+        <div class="grid">
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(1).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(1).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(2).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(2).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(3).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(3).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(4).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(4).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(5).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(5).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(6).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(6).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(7).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(7).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(8).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(8).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(9).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(9).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure>
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(10).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(10).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            <figure>
+                <div class="image-container">
+                    <img src="images/Bracelets/(11).jpeg">
+                        <img src="../images/heart.png" class="image-overlay" onclick="toggleFavorite('../jewelry/images/bracelets/(11).jpeg')">
+                </div>                
+                <figcaption class="prices">1510 €</figcaption>
+            </figure> 
+            
+
+
+        </div>
+        <script src="../js/email.js"></script>
+        <script src="../JS/favorites.js"></script>
+</body>
+</html>

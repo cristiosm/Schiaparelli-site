@@ -1,0 +1,87 @@
+.text-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+}
+
+.text-1, .text-2 , .text-3, .text-4 , .text-5 , .text-6 {
+  color: rgb(49, 49, 49);
+  position: relative;
+  top: 50%;
+  left: 0;
+  display: block;
+  margin-bottom: 10px;
+  transform: translateY(-50%);
+}
+.text-1 {
+  font-size: 18px;
+  animation: scrollText1 17s linear infinite;
+}
+
+.text-2 {
+  font-size: 30px;
+  animation: scrollText1 20s linear infinite;
+}
+
+.text-3 {
+  font-size: 15px;
+  animation: scrollText3 21s linear infinite;
+}
+
+.text-4 {
+  font-size: 30px;
+  animation: scrollText4 16s linear infinite;
+}
+
+.text-5 {
+  font-size: 20px;
+  animation: scrollText5 20s linear infinite;
+}
+
+@keyframes scrollText1 {
+  from {
+    transform: translateX(30%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrollText2 {
+  from {
+    transform: translateX(80%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrollText3 {
+  from {
+    transform: translateX(70%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrollText4 {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scrollText5 {
+  from {
+    transform: translateX(90%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
